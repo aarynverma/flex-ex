@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, purple , aqua);
+}
+
+.first {
+    margin: 70px 80px;
+    padding: 50px 40px;
+    background-color: white;
+}
+.span {
+    font-weight: bolder;
+}
+.nav1 {
+    
+    display: flex;
+    justify-content: space-between;
+    justify-items: flex-end; 
+}
+.lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.small {
+    opacity: 0.5;
+}
+.child1 {
+    width: 300px;
+}
+.box {
+    display: flex;
+}
+ .child {
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    
+} 
+#size{
+    font-size: small;
+}
+
+.color2 {
+    color: turquoise;
+}
+
+ul {
+    margin-left: -32px;
+    list-style: none;
+    color: turquoise;
+}
+hr {
+    opacity: 0.5;
+}
